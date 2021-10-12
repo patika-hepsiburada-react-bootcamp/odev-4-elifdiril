@@ -18,8 +18,8 @@ const CityDropDown = ({ setSelectedCity }) => {
 
     return (
         <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-            <DropdownToggle caret>
-                Cities
+            <DropdownToggle caret color="dark">
+                Select City
             </DropdownToggle>
             <DropdownMenu>
                 {!cities && <DropdownItem >No City</DropdownItem>}
