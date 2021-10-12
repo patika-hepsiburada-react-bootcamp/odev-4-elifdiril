@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-color: rgb(46, 145, 145);
+  background: rgb(46, 145, 145);
   padding-top: 1%;
+  height: 100%;
 }
 
 .weather-card {
@@ -26,4 +27,14 @@
   background-clip: border-box;
   border: 2px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.35rem;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: rgb(46, 145, 145);
+}
+
+.spinner-style{
+  padding-bottom: 100%;
 }

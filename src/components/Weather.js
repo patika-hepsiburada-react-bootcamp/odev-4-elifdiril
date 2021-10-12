@@ -3,6 +3,7 @@ import { useQuery } from '@apollo/client';
 import { WEATHER_QUERY } from './queries';
 import '../App.css';
 import WeatherCard from './WeatherCard';
+import { Spinner } from 'reactstrap';
 
 function Weather({ selectedCity }) {
     const iconUrl = 'http://openweathermap.org/img/wn/';
@@ -14,7 +15,7 @@ function Weather({ selectedCity }) {
     const toggle = () => setModal(!modal);
 
     if (loading) {
-        return <div>Loading...</div>
+        return <div className="spinner-style"><Spinner style={{ width: '5rem', height: '5rem', marginTop: '17%' }} />{' '}</div>
     }
 
     if (error) {
