@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background: rgb(46, 145, 145);
   padding-top: 1%;
   height: 100%;
 }
@@ -8,13 +7,12 @@
 .weather-card {
   width: 23%;
   margin-left: 38%;
-  margin-top: 5%;
+  margin-top: 2%;
   padding-bottom: 5%;
 }
 
-.card-img,
-.card-img-top {
-  background-color: lightblue;
+.card-img{
+  background-color: rgb(195, 232, 241);
 }
 
 .card-body {
@@ -29,12 +27,33 @@
   border-radius: 0.35rem;
 }
 
-body, html {
-  height: 100%;
-  margin: 0;
-  background-color: rgb(46, 145, 145);
+body,
+html {
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
 }
 
-.spinner-style{
+.spinner-style {
   padding-bottom: 100%;
 }
+
+.temperature {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.city-name {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.desc{
+  font-size: 15px;
+}
+
+.wind{
+  font-size: 15px;
+  margin-top: -15%;
+  margin-left: 42%;
+}
+
