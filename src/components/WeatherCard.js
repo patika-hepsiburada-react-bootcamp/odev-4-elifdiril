@@ -8,7 +8,7 @@ const WeatherCard = ({ cityData, iconUrl }) => {
     return (
         <div className="weather-card">
             <Card>
-                <CardImg src={iconUrl + cityData.weather.summary.icon + '@2x.png'} alt="Card image cap" />
+                <CardImg src={iconUrl + cityData.weather.summary.icon + '@2x.png'} alt="Card image" />
                 <CardBody>
                     <CardText>
                         <div className="temperature">{(cityData.weather.temperature.actual - 273.15).toFixed(1)} °C</div>
@@ -20,7 +20,6 @@ const WeatherCard = ({ cityData, iconUrl }) => {
                             <Col xs="4">{cityData.weather.wind.speed} Mps</Col>
                             <Col xs="3"></Col>
                         </Row>
-
                         <Row>
                             <Col xs="3"></Col>
                             <Col xs="2"><Humid /></Col>

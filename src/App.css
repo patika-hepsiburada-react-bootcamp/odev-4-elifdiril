@@ -4,6 +4,19 @@
   height: 100%;
 }
 
+body,
+html {
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+}
+
+/* Weather Component starts*/
+.spinner-style {
+  padding-bottom: 100%;
+}
+/* Weather Component ends*/
+
+/* WeatherCard starts*/
 .weather-card {
   width: 23%;
   margin-left: 38%;
@@ -11,7 +24,7 @@
   padding-bottom: 5%;
 }
 
-.card-img{
+.card-img {
   background-color: rgb(195, 232, 241);
 }
 
@@ -27,16 +40,6 @@
   border-radius: 0.35rem;
 }
 
-body,
-html {
-  background-image: url('./assets/bg.jpg');
-  background-size: cover;
-}
-
-.spinner-style {
-  padding-bottom: 100%;
-}
-
 .temperature {
   font-weight: bold;
   font-size: 25px;
@@ -47,13 +50,7 @@ html {
   font-size: 22px;
 }
 
-.desc{
+.desc {
   font-size: 15px;
 }
-
-.wind{
-  font-size: 15px;
-  margin-top: -15%;
-  margin-left: 42%;
-}
-
+/*WeatherCard ends*/
