@@ -1,6 +1,9 @@
 # Ödev 4
 
+# [live](https://weather-app-graphql.netlify.app/)
 
+
+## react, apollo, graphql, lottie (animations), bootstrap kullanılarak geliştirilmiştir.
 
 ## Gereksinimler
 
