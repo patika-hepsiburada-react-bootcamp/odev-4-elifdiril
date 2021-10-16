@@ -54,3 +54,8 @@ html {
   font-size: 15px;
 }
 /*WeatherCard ends*/
+
+.dropdown-menu{
+  overflow-y: scroll;
+  max-height: 300px;
+}

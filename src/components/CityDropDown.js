@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import _cities from '../assets/city.json';
+import '../App.css';
 
 const CityDropDown = ({ setSelectedCity }) => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
