@@ -6,6 +6,8 @@ import { Spinner } from 'reactstrap';
 
 function Weather({ selectedCity }) {
     const iconUrl = 'http://openweathermap.org/img/wn/';
+    
+    //set city data from weather query
     const { loading, error, data } = useQuery(WEATHER_QUERY, {
         variables: { name: selectedCity }
     });
@@ -18,6 +20,7 @@ function Weather({ selectedCity }) {
         return <div>{error}</div>
     }
 
+    //call weather card according to selected city
     let cityData = data.getCityByName;
     return (
         <WeatherCard cityData={cityData} iconUrl={iconUrl} />
