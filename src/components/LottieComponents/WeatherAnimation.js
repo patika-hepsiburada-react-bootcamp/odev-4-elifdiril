@@ -1,5 +1,5 @@
 import Lottie from 'react-lottie';
-import { useState, useEffect } from 'react/cjs/react.development';
+import { useState, useEffect } from 'react';
 
 function WeatherAnimation({ icon }) {
 
