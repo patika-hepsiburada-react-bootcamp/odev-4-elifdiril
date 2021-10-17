@@ -14,7 +14,7 @@ function WeatherAnimation({ icon }) {
 
         loadData();
         console.log(animationD)
-    }, []);
+    }, [animationD, icon]);
 
     const defaultOptions = {
         loop: true,
