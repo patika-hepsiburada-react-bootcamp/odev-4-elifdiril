@@ -2,16 +2,17 @@ import React from 'react';
 import { Card, CardImg, CardText, CardBody, Row, Col } from 'reactstrap';
 import '../App.css';
 import Humid from './LottieComponents/Humid';
+import WeatherAnimation from './LottieComponents/WeatherAnimation';
 import Wind from './LottieComponents/Wind';
 
 const WeatherCard = ({ cityData, iconUrl }) => {
     // set image source fixed url + selected city icon
     // temperature converted to celsius
-    
+
     return (
         <div className="weather-card">
             <Card>
-                <CardImg src={iconUrl + cityData.weather.summary.icon + '@2x.png'} alt="Card image" />
+                <WeatherAnimation icon={cityData.weather.summary.icon} />
                 <CardBody>
                     <CardText>
                         <div className="temperature">{(cityData.weather.temperature.actual - 273.15).toFixed(1)} °C</div>
