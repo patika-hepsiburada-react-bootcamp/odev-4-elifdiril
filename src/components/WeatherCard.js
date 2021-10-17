@@ -5,7 +5,7 @@ import Humid from './LottieComponents/Humid';
 import WeatherAnimation from './LottieComponents/WeatherAnimation';
 import Wind from './LottieComponents/Wind';
 
-const WeatherCard = ({ cityData, iconUrl }) => {
+const WeatherCard = ({ cityData }) => {
     // set image source fixed url + selected city icon
     // temperature converted to celsius
 

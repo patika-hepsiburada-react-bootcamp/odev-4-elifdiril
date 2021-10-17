@@ -24,10 +24,6 @@ html {
   padding-bottom: 5%;
 }
 
-.card-img {
-  background-color: rgb(195, 232, 241);
-}
-
 .card-body {
   background-color: black;
   color: antiquewhite;
