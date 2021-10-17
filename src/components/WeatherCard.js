@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, Row, Col } from 'reactstrap';
+import { Card, CardText, CardBody, Row, Col } from 'reactstrap';
 import '../App.css';
 import Humid from './LottieComponents/Humid';
 import WeatherAnimation from './LottieComponents/WeatherAnimation';
